@@ -2,8 +2,6 @@ cmake_minimum_required(VERSION 3.20)
 
 project(Libs LANGUAGES C)
 
-set(CMAKE_STATIC_LIBRARY_SUFFIX ".a" CACHE STRING "" FORCE)
-
 add_executable(libs)
 
 target_sources(libs PRIVATE main.c)
