@@ -5,7 +5,6 @@ project(Libs LANGUAGES C)
 add_executable(libs)
 
 target_sources(libs PRIVATE main.c)
-target_compile_options(libs PUBLIC --no_fragments)
 include_directories(./lib)
 target_link_libraries(libs "${CMAKE_SOURCE_DIR}/lib/my_crc_lib.a")
 target_link_libraries(libs "${CMAKE_SOURCE_DIR}/lib/lib.a")
