@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "my_crc.h"
+#include "awesome.h"
 
 int main() {
   do_it();
