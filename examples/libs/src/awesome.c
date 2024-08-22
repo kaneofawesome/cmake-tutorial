@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "my_crc.h"
+#include "awesome.h"
 
 const uint32_t data[4] = { 0x00010203, 0x04050607, 0x08090A0B, 0x0C0D0E0F };
 
